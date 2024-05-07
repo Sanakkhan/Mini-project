@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+      
+}
+
+.Navbar
+{
+    /* background-color:aqua ; */
+    position: relative;
+    left: 25%;
+
+}
+.bg
+{
+    border: none;
+}
+.card-img 
+{
+    background-image: url('Images/image\ 149.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.mt
+{
+    margin-top: 3em!important;
+    margin-left: 2.2em;
+    font-size: 3.50em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+
+}
+
+.text
+{
+    margin-left: 10%;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: bold;
+    font-size: 2.50em;
+}
+.text-body
+{
+    width: 30%;
+    margin-left: 8em;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: bold; */
+    font-size: 1em;
+    color: aliceblue!important;
+ 
+}
+
+.btn1
+{
+    margin-left: 8em;
+    background: linear-gradient(to top left, #0066ff 0%, #ff99cc 100%);
+    border: none;
+    
+}
+.btn1:hover
+{
+    color: rgb(58, 58, 90);
+}
+
+
+@media (max-width: 1027px) {
+    
+    .mt
+{
+    margin-top: 2.50em!important;
+    margin-left: 2.2em;
+    font-size: 3.50em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+
+}
+    
+    .text
+    {
+        margin-left: 3em;
+        /* font-family: "Poppins", sans-serif; */
+        font-weight: bold;
+        font-size: 2.50em;
+    }
+  }
+@media (max-width: 320px) {
+  
+    .mt
+    {
+        width: 100%;
+        margin-top: 8em!important;
+        margin-left: 0.5em;
+        font-size: 1.20em;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+    
+    }
+
+    .text
+{
+    margin-left: 3%;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: bold;
+    font-size: 1em;
+}
+.text-body
+{
+    width: 80%;
+    margin-left: 1em;
+    text-align: justify;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: bold; */
+    font-size: .90em;
+    color: aliceblue!important;
+ 
+}
+
+.btn1
+{
+    margin-bottom:100px;
+    margin-left: 1em;
+    background: linear-gradient(to top left, #0066ff 0%, #ff99cc 100%);
+    border: none;
+    
+}
+  }
+
+
